@@ -3,22 +3,22 @@ package com.cciocau.avionics.b738.pfd;
 import com.cciocau.avionics.Instrument;
 
 public class AttitudeInstrument implements Instrument {
-    private long pitch;
-    private long roll;
+    private float pitch;
+    private float roll;
 
-    public long getPitch() {
+    public float getPitch() {
         return pitch;
     }
 
-    public void setPitch(long pitch) {
+    public void setPitch(float pitch) {
         this.pitch = pitch;
     }
 
-    public long getRoll() {
+    public float getRoll() {
         return roll;
     }
 
-    public void setRoll(long roll) {
+    public void setRoll(float roll) {
         this.roll = roll;
     }
 }
